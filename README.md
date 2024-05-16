@@ -51,9 +51,9 @@ This project scrapes clinical trial data from EU and US websites, stores it in a
     GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;
     ```
 
-    **Connect to Database by running the following commands**;
+    **Connect to Database by running the following command**:
     ```
-    psql -U myuser -d mydatabase
+    psql -U myuser -d mydatabase;
     ```
 
 4. **Run the Python Script**:
