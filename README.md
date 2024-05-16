@@ -37,10 +37,13 @@ This project scrapes clinical trial data from EU and US websites, stores it in a
     Create a PostgreSQL database and update the `DATABASE_URL` in `webscraper.py` with your database credentials.
 
     **Commands To Setup PostgreSQL Daabase from terminal**:
+    ```
     brew update
     brew install postgresql
-
     brew services start postgresql
+    ```
+
+    ```
     sudo -i -u postgres
     psql
     CREATE DATABASE databaseNameOfYourChoice;
@@ -49,6 +52,7 @@ This project scrapes clinical trial data from EU and US websites, stores it in a
 
     **Connect to Database by running the following commands**;
     psql -U myuser -d mydatabase
+    ```
 
 
 4. **Run the Python Script**:
