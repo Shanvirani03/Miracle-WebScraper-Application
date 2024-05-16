@@ -49,11 +49,12 @@ This project scrapes clinical trial data from EU and US websites, stores it in a
     CREATE DATABASE databaseNameOfYourChoice;
     CREATE USER myuser WITH ENCRYPTED PASSWORD 'passwordOfYourChoice';
     GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;
-
-    **Connect to Database by running the following commands**;
-    psql -U myuser -d mydatabase
     ```
 
+    **Connect to Database by running the following commands**;
+    ```
+    psql -U myuser -d mydatabase
+    ```
 
 4. **Run the Python Script**:
     ```
